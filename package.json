@@ -1,0 +1,19 @@
+{
+  "name": "stirka_bot",
+  "version": "1.0.0",
+  "description": "bot for ordering super stirka",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "skinnykaen",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
